@@ -1,0 +1,25 @@
+//1
+let animals = new Map([
+    [`dot`, "key"],
+    ["prop", `prop2`],
+    ['parr', 125]
+]);
+animals.forEach((key) => {
+    console.log(`${key} - x`);
+});
+animals.forEach((value) => {
+    console.log(` ${value} - y`);
+});
+
+//2
+let animals = new Map([
+    ["dot", "key"],
+    ["prop", "prop2"],
+    ["parr", "125"]
+]);
+animals.forEach((key) => {
+    console.log(`${key} - x`);
+});
+animals.forEach((value) => {
+    console.log(` ${value} - y`);
+});
